@@ -26,7 +26,9 @@ const builtinExtensions = {
     text2speech: () => require('../extensions/scratch3_text2speech'),
     translate: () => require('../extensions/scratch3_translate'),
     videoSensing: () => require('../extensions/scratch3_video_sensing'),
-    makeymakey: () => require('../extensions/scratch3_makeymakey')
+    makeymakey: () => require('../extensions/scratch3_makeymakey'),
+    facedetection: () => require('../extensions/scratch3_face_detection'),
+    faceSensing: () => require('../extensions/scratch3_face_sensing'),
 };
 
 const builtinDevices = {
@@ -46,6 +48,8 @@ const builtinDevices = {
     arduinoUnoR4Wifi: () => require('../devices/arduinoUnoR4Wifi/arduinoUnoR4Wifi'),
     // Esp32
     arduinoEsp32: () => require('../devices/arduinoEsp32/arduinoEsp32'),
+    //fable
+    arduinoEsp321: () => require('../devices/arduinoEsp321/arduinoEsp321'),
     // Esp32-S3
     arduinoEsp32S3: () => require('../devices/arduinoEsp32S3/arduinoEsp32S3'),
     // Esp8266

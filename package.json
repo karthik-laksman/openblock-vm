@@ -1,13 +1,14 @@
 {
   "name": "openblock-vm",
-  "version": "0.2.0",
+  "version": "0.2.0-prerelease.20250609145235",
   "description": "Virtual Machine for OpenBlock",
   "author": "Massachusetts Institute of Technology",
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/openblockcc/openblock-vm#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/openblockcc/openblock-vm.git"
+    "url": "git+ssh://git@github.com/openblockcc/openblock-vm.git",
+    "sha": "1799b268d23a04feb364e5d1744c4f07c862ed6a"
   },
   "main": "./dist/node/openblock-vm.js",
   "browser": "./src/index.js",

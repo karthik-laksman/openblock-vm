@@ -113,6 +113,11 @@ const ArgumentType = {
      */
     MATRIX8X12: 'matrix8x12',
 
+        /**
+     * String value with matrix field
+     */
+    MATRIX8X8: 'matrix8x8',
+
     /**
      * MIDI note number with note picker (piano) field
      */

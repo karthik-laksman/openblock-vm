@@ -708,9 +708,9 @@ class OpenBlockArduinoUnoR4WifiDevice {
                 color3: '#2E8EB8',
                 blocks: [
                     {
-                        opcode: 'showImage',
+                        opcode: 'showImage1',
                         text: formatMessage({
-                            id: 'arduinoUnoR4Wifi.display.showImage',
+                            id: 'arduinoUnoR4Wifi.display.showImage1',
                             default: 'show image [VALUE]',
                             description: 'Arduino Uno R4 Wifi show image'
                         }),
@@ -723,9 +723,24 @@ class OpenBlockArduinoUnoR4WifiDevice {
                         }
                     },
                     {
-                        opcode: 'showImageUntil',
+                        opcode: 'showImage12',
                         text: formatMessage({
-                            id: 'arduinoUnoR4Wifi.display.showImageUntil',
+                            id: 'arduinoUnoR4Wifi.display.showImage12',
+                            default: 'show image1 [VALUE]',
+                            description: 'Arduino Uno R4 Wifi show image1'
+                        }),
+                        blockType: BlockType.COMMAND,
+                        arguments: {
+                            VALUE: {
+                                type: ArgumentType.MATRIX8X12,
+                                defaultValue: '001100011000010010100100010001000100001000001000000100010000000010100000000001000000000000000000' // eslint-disable-line max-len
+                            }
+                        }
+                    },
+                    {
+                        opcode: 'showImageUntil1',
+                        text: formatMessage({
+                            id: 'arduinoUnoR4Wifi.display.showImageUntil1',
                             default: 'show image [VALUE] for [TIME] secs',
                             description: 'Arduino Uno R4 Wifi show image for some times'
                         }),
